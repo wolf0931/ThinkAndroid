@@ -35,7 +35,8 @@ public class DownloadListAdapter extends BaseAdapter
 			public void onSuccess(String url)
 			{
 				// TODO Auto-generated method stub
-//				Toast.makeText(mContext, "下载完成", Toast.LENGTH_LONG).show();
+				Toast.makeText(mContext, "下载完成", Toast.LENGTH_LONG).show();
+				Toast.makeText(mContext, "下载完成", Toast.LENGTH_LONG).show();
 				removeItem(url);
 			}
 
